@@ -46,13 +46,13 @@ body {
 .third-container {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   padding: 3rem;
-  border-radius: 0.25rem 0 0 0.25rem;
 }
 
 /* First Container */
 .first-container {
+  border-radius: 0.25rem 0 0 0.25rem;
   background: var(--bright-orange);
 }
 
@@ -72,6 +72,7 @@ body {
 /* Third Container */
 .third-container {
   background-color: var(--very-dark-cyan);
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .third-container a {
