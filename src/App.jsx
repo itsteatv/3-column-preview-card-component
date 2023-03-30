@@ -1,9 +1,54 @@
+import iconLuxury from "./assets/icon-luxury.svg";
+import iconSedans from "./assets/icon-sedans.svg";
+import iconSuvs from "./assets/icon-suvs.svg";
 import "./App.css";
 
 function App() {
   return (
-    <></>
-  )
+    <main>
+      <section className="container">
+        {/* First Container */}
+        <div className="first-container">
+          <div className="image-container">
+            <img src={iconLuxury}></img>
+          </div>
+          <h2 className="title">Sedans</h2>
+          <p>
+            {" "}
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+          <a></a>
+        </div>
+        {/* Second Container */}
+        <div className="second-container">
+          <div className="image-container">
+            <img src={iconSedans}></img>
+          </div>
+          <h2 className="title">SUVs</h2>
+          <p>
+            {" "}
+            Take an SUV for its spacious interior, power, and versatility.
+            Perfect for your next family vacation and off-road adventures.
+          </p>
+          <a></a>
+        </div>
+        {/* Third Container */}
+        <div className="third-container">
+          <div className="image-container">
+            <img src={iconSuvs}></img>
+          </div>
+          <h2 className="title">Luxury</h2>
+          <p>
+            {" "}
+            Cruise in the best car brands without the bloated prices. Enjoy the
+            enhanced comfort of a luxury rental and arrive in style.
+          </p>
+          <a></a>
+        </div>
+      </section>
+    </main>
+  );
 }
 
 export default App;
