@@ -48,27 +48,22 @@ body {
   flex-direction: column;
   gap: 1.5rem;
   padding: 3rem;
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 
 /* First Container */
 .first-container {
   background: var(--bright-orange);
-  border-top-left-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
 }
 
 /* Second Container */
 .second-container {
   background: var(--dark-cyan);
-  border-top-left-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
 }
 
 /* Third Container */
 .third-container {
   background-color: var(--very-dark-cyan);
-  border-top-left-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
 }
 
 /* Title */
@@ -93,6 +88,10 @@ body {
   justify-content: center;
   align-items: center;
   background: var(--light-gray);
+  font-family: var(--lexend-ceda);
   margin-top: 3rem;
-  width: 50%;
+  width: 55%;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 35px;
 }
