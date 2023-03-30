@@ -75,6 +75,7 @@ body {
 }
 
 .third-container a {
+  color: var(--very-dark-cyan);
 }
 
 /* Title */
