@@ -56,14 +56,24 @@ body {
   background: var(--bright-orange);
 }
 
+.first-container a {
+  color: var(--bright-orange);
+}
+
 /* Second Container */
 .second-container {
   background: var(--dark-cyan);
 }
 
+.second-container a {
+}
+
 /* Third Container */
 .third-container {
   background-color: var(--very-dark-cyan);
+}
+
+.third-container a {
 }
 
 /* Title */
