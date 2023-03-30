@@ -66,6 +66,7 @@ body {
 }
 
 .second-container a {
+  color: var(--dark-cyan);
 }
 
 /* Third Container */
