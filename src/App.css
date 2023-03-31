@@ -171,7 +171,13 @@ body {
     width: 70%;
   }
 
-  .button {
+  .first-container .button,
+  .second-container .button,
+  .third-container .button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
     width: 80%;
+    text-align: center;
   }
 }
