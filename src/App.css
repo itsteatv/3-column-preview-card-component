@@ -34,7 +34,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100dvh;
+  height: 100vh;
   width: 80%;
   max-width: 60rem;
   margin: 0 auto;
@@ -107,4 +107,46 @@ body {
   padding: 1rem;
   text-decoration: none;
   border-radius: 35px;
+}
+
+.button:hover {
+  color: var(--light-gray);
+  border: 1px solid var(--light-gray);
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Media Queries (1199px) */
+@media (max-width: 75em) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 5rem auto;
+  }
+
+  .first-container,
+  .second-container,
+  .third-container {
+    gap: 1rem;
+    width: 50%;
+  }
+
+  .first-container {
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+
+  .second-container {
+    border-radius: 0;
+  }
+
+  .third-container {
+    border-radius: 0 0 0.25rem 0.25rem;
+  }
+
+  .button {
+    width: 40%;
+    margin-top: 2rem;
+  }
 }
