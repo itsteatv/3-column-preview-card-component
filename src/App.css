@@ -155,11 +155,23 @@ body {
   }
 }
 
-            /* (703px) */
+/* (703px) */
 @media (max-width: 44em) {
   .first-container,
   .second-container,
   .third-container {
+    width: 80%;
+  }
+}
+/* 368px (Phones) */
+@media (max-width: 23em) {
+  .first-container,
+  .second-container,
+  .third-container {
+    width: 70%;
+  }
+
+  .button {
     width: 80%;
   }
 }
