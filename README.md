@@ -23,6 +23,32 @@ FrontEnd Mentor Website Challenge
 - [React](https://reactjs.org/) - JS library
 - [Vite](https://vitejs.dev/) - Development Server
 
+## 🖥️ Run Locally
+
+1️⃣ Clone the project
+
+```bash
+  git clone https://github.com/itsteatv/3-column-preview-card-component.git
+```
+
+2️⃣ Go to the project directory
+
+```bash
+  cd 3-column-preview-card-component📝
+```
+
+3️⃣ Install dependencies
+
+```bash
+  npm install
+```
+
+🔚 Start the server
+
+```bash
+  npm run dev
+```
+
 ### What I learned
 
 This challenge was so fun and not really difficult,
